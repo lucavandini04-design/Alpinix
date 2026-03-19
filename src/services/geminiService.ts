@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { FISILevel, Session, TechnicalError } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.VITE_GEMINI_API_KEY });
 
 const SYSTEM_INSTRUCTION = `
 Sei un assistente tecnico specializzato per maestri di sci.
